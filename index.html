@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>हर्ष बिर्याणी हाऊस - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #040404 url('bm.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .card {
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ffc107;
+    }
+    .navbar-nav .nav-link {
+      font-size: 1.2rem;
+    }
+    .hero-section {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+    .hero-section img {
+      width: 800px;
+      height: 480px;
+      margin-bottom: 20px;
+    }
+    .hero-section h1 {
+      font-size: 2.5rem;
+      color: #ffc800;
+    }
+    .card img.main-img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #ffffff;
+      color: #060606;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar with logo + text -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span>हर्ष बिर्याणी हाऊस</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="located.html">Located As</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with logo + text -->
+  <div class="hero-section">
+    <img src="hotellogo.png" alt="Logo">
+    <h1>हर्ष बिर्याणी हाऊस मध्ये आपले स्वागत आहे!</h1>
+    <p>खास बिर्याणी व महाराष्ट्रीयन स्वादाची जागा</p>
+  </div>
+
+  <!-- Cards below -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4 d-flex">
+        <div class="card p-3 h-100 w-100 d-flex flex-column text-center">
+          <img src="bimg.jpg" class="main-img rounded mb-3" alt="Biryani">
+          <div class="card-body">
+            <h5 class="card-title">हर्ष स्पेशल बिर्याणी</h5>
+            <p class="card-text">खास मसालेदार बिर्याणी जी तुमच्या जिभेवर लाज ठेवणार नाही.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="card p-3 h-100 w-100 d-flex flex-column text-center">
+          <img src="thali.jpg" class="main-img rounded mb-3" alt="Thali">
+          <div class="card-body">
+            <h5 class="card-title">स्वादिष्ट थाळी</h5>
+            <p class="card-text">व्हेज व नॉनव्हेज थाळीचे अफलातून कॉम्बिनेशन.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="card p-3 h-100 w-100 d-flex flex-column text-center">
+          <img src="paratha.jpg" class="main-img rounded mb-3" alt="Paratha">
+          <div class="card-body">
+            <h5 class="card-title">ताजे पराठे</h5>
+            <p class="card-text">ताज्या पनीर व मसाल्यांनी भरलेले नरम पराठे.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- Footer -->
+ <footer>
+  <div class="container py-3">
+    <div class="d-flex justify-content-center gap-4 align-items-center">
+      <a href="https://www.instagram.com/_the_biryani_hub_?igsh=b3diMGEwMjg5Z2x4" target="_blank" style="color:#000000; text-decoration:none;">
+        <img src="insta.png" width="100" height="100" >
+        <i class="bi bi-instagram" style="font-size:1.5rem;"></i> @_the_biryani_hub_        /
+      </a>
+
+    <p class="text-center mt-3" style="color:#030303;">&copy;2025 हॉटेल हर्ष बिर्याणी हाऊस. सर्व हक्क राखीव.</p>
+  </div>
+</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
